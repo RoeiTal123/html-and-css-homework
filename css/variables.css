@@ -1,6 +1,16 @@
+
+@font-face {
+  font-family: "rubik";
+  src: url("../css/font/Rubik-VariableFont_wght.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --color-light: hsl(28, 100%, 85%);
   --color-mid1: hsl(21, 100%, 77%);
   --color-mid2: hsl(24, 100%, 64%);
   --color-strong: hsl(24, 100%, 50%);
+
+  --main-font: "rubik", sans-serif;
 }

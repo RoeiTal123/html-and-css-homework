@@ -5,6 +5,7 @@
     padding: 0;
     font-size: 16px;
     box-sizing: border-box;
+    font-family: var(--main-font);
 }
 
 html{
@@ -37,14 +38,17 @@ body{
 }
 
 .cat-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
     height: fit-content;
     width: fit-content;
 }
 
 .cat-list .title{
     font-size: 40px;
-    margin-block-end: 2em;
     font-weight: 500;
+    color: var(--color-strong);
 }
 
 .cat-list .cat{
@@ -75,10 +79,18 @@ body{
     display: flex;
     flex-direction: column;
     height: fit-content;
+    gap: 2em;
 }
 
 .choice video{
     height: 500px;
+    background-color: var(--color-light);
+}
+
+.choice .title{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--color-strong);
 }
 
 footer{
