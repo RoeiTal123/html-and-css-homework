@@ -1,5 +1,6 @@
 :root {
-  --color-primary: hsl(173, 59, 81);
-  --color-secondery: hsl(187, 71, 59);
-  --color-complementry: hsl(186, 100, 33);
+  --color-light: hsl(28, 100, 85);
+  --color-mid1: hsl(21, 100, 77);
+  --color-mid2: hsl(24, 100, 64);
+  --color-strong: hsl(24, 100, 50);
 }
