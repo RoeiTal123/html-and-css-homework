@@ -26,6 +26,7 @@ body{
     gap: 2em;
     height: fit-content;
     width: fit-content;
+    margin-inline: 2em;
 }
 
 .cat-list .title{
@@ -63,6 +64,7 @@ body{
     flex-direction: column;
     height: fit-content;
     gap: 2em;
+    margin-inline: 2em;
 }
 
 .choice video{
