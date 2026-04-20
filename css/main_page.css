@@ -11,7 +11,6 @@
 
 .welcome {
     background: linear-gradient(to right, var(--color-mid2), var(--color-light), var(--color-mid2));
-    /* background-color: var(--color-light);  */
     padding: 2em;
     padding-block-end: 0;         
     display: flex;
@@ -59,7 +58,6 @@
 
 .container {
     padding: 20px;
-    /* margin-right: 50%; */
 }
 
 .title {
@@ -117,14 +115,6 @@
     box-shadow: 0 12px 24px rgba(0,0,0,0.15);
     cursor: pointer;
 }
-
-/* .card h3 {
-    margin: 20px;
-} */
-
-/* .card p {
-    margin: 20px;
-} */
 
 .image-container {
     position: relative;

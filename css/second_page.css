@@ -45,7 +45,7 @@
     flex-direction: column;
     height: fit-content;
     gap: 2em;
-    margin-inline: 2em;
+    margin: 2em;
 }
 
 .choice video{
