@@ -147,8 +147,22 @@ h2{
 }
 
 .image-container img {
+    position: relative;
     border-radius: 8px;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.image-container .favourite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: var(--color-light);
 }
