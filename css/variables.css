@@ -9,7 +9,7 @@
 :root {
   --color-light: hsl(28, 100%, 85%);
   --color-mid1: hsl(21, 100%, 77%);
-  --color-mid2: hsl(33, 92, 54);
+  --color-mid2: hsl(33, 92%, 54%);
   --color-strong: hsl(24, 100%, 50%);
 
   --main-font: "rubik", sans-serif;
@@ -28,7 +28,7 @@
 
 html{
     height: 100%;
-    width: 100vw;
+    width: 100%;
     padding: 0em;
 }
 
@@ -43,10 +43,10 @@ header {
     flex-wrap: wrap;
     justify-content: space-between; 
     align-items: center;      
-    height: 4em;
+    height: 128px;
     width: 100%;
-    padding-inline: 2em; 
-    gap: 3em;
+    padding: 32px; 
+    gap: 48px;
     background-color: var(--color-light);
 
     position: sticky;      
@@ -59,15 +59,15 @@ header {
 .brand {
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: 16px;
 }
 
 .brand img {
-    height: 3em; 
+    height: 64px; 
     display: block;
 }
 .logo img {
-    height: 4em;      
+    height: 64px;      
     display: block;
 }
 .logo-text {
@@ -87,7 +87,7 @@ header {
     text-decoration: none;       
     color: #333;                 
     font-weight: 500;            
-    font-size: 1.1rem;
+    font-size: 24px;
     transition: all 0.3s ease;   
     position: relative;         
 }
@@ -114,8 +114,11 @@ header {
 
 
 footer {
-    background-color: #f3f0ff; 
-    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #f3f0ff;  
+    padding: 2rem;
     color: #4a4a4a;
     font-family: sans-serif;
 }
@@ -123,7 +126,6 @@ footer {
 .footer-container {
     display: flex;
     gap: 10rem; 
-    margin-bottom: 2rem;
 }
 
 .footer-column span {
@@ -199,7 +201,7 @@ footer {
     text-decoration: none;       
     color: #333;                 
     font-weight: 700;            
-    font-size: 1.1rem;
+    font-size: 24px;
     transition: all 0.3s ease;   
     position: relative;  
 }

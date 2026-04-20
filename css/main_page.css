@@ -33,14 +33,22 @@ h2{
 }
 
 .welcome {
-    background-color: var(--color-light); 
-    padding: 4em 2em;         
+    background: linear-gradient(to right, var(--color-mid2), var(--color-light), var(--color-mid2));
+    /* background-color: var(--color-light);  */
+    padding: 2em;
+    padding-block-end: 0;         
     display: flex;
     flex-direction: column;    
     gap: 3em;               
 }
 
+.welcome img{
+    position: relative;
+    width: 100%;
+}
+
 .welcome-content{
+    position: absolute;
     max-width: 600px;              
 }
 .welcome-content h1{
@@ -56,7 +64,7 @@ h2{
 }
 
 .about { 
-    padding: 4em 2em;         
+    padding: 2em;         
     display: flex;
     flex-direction: column;    
     gap: 3em;               
